@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="contact" content="contact">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Pacifico&display=swap" rel="stylesheet">
+        <title>Mi portafolio contact</title>
+    </head>
+    <body class="body" style="background-color: #F7E8FA;">
+        <header class="header">
+            <div class="logoMenu">
+                <img src="img/IMG_7018.PNG" alt="logo" class="logo">
+            </div>
+            <div class="linksMenu">
+                <a href="./index.html" class="white">HOME</a>
+                <a href="./info.html" class="white">¿QUIÉN SOY?</a>
+                <a href="./tecnologies.html" class="white">TECNOLOGIAS</a>
+                <a href="./proyects.html" class="white">PROYECTOS</a>
+                <a href="./contact.html" class="white active">CONTACTO</a>
+            </div>
+        </header>
+        <main class="mainContact left">
+            <div class="titulo">CONTACTA</div>
+            <form id="contact" class="formBox">
+                <label for="name" class="left">Nombre</label>
+                <input type="text" id="name" class="left">
+                <label for="email" class="left">Correo Electrónico</label>
+                <input type="email" id="email" class="left">
+                <label for="phoneNumber" class="left">Teléfono</label>
+                <input type="number" id="phoneNumber" class="left">
+                <label for="subject" class="left">Motivo</label>
+                <textarea name="subject" id="subject" cols="30" rows="10" class="left"></textarea>
+            </form> 
+            <button class="button" onclick="sendContact()">Enviar</button>
+        </main>
+        <footer class="footer">
+            <div class="c"> © 2023 Xisca Ayala | Mallorca </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
