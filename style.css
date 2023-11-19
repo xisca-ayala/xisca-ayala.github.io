@@ -98,7 +98,7 @@ a:hover{
 }
 
 .titulo{
-    padding-top: 20vh;
+    margin-top: 20vh;
     padding-bottom: 5vh;
     font-size: 300%;
     font-family: 'Montserrat', sans-serif;
@@ -217,27 +217,27 @@ a:hover{
     font-weight:bolder;
 }
 
-.mainProyects{
+.mainProjects{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-.boxProyects{
+.boxProjects{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around; 
 }
 
-.proyect{
+.project{
     margin-top: 5vh;
     height: 60vh;
     width: 25%;
 }
 
-.imgProyect{
+.imgProject{
     height: 35vh;
     width: 100%;
     object-fit: cover;
@@ -245,22 +245,34 @@ a:hover{
     box-shadow: 0px 1px 10px #DBADDE;
 }
 
+.tecProjects{
+    color:var(--colorPink);
+}
+
 .mainTechno{
     display:flex;
     flex-direction: column; 
     align-items: center;
+    width: 100%;
 }
 
 .technologies{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+    width: 100%;
 }
 
 .technology{
-    height: 300px;
+    height: 200px;
     width: 30%;
+    margin-top: 10vh;
+}
+
+.imgTec{
+    height:80px;
+    width: 80px;
 }
 
 .mainContact{
