@@ -56,17 +56,21 @@
 
 .app{
     color: rgb(93, 93, 222); 
+    font-size: 15px;
 }
 
 .tittleProject{
     font-weight: 530;
     margin-bottom: 20px;
-
 }
 
 .textProject{
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 15px;
+}
+
+.tecProjects{
+    font-size: 15px; 
 }
 
 .linksMenu{
@@ -212,20 +216,24 @@ a:hover{
     margin-left: 5vh;
     color:white; 
     transition: color 1s;
+    font-size: 20px;
 }
 
 .firstLine:hover{
     color: blue; 
+    font-size: 24px;
 }
 
 .secondLine{
     margin-left: 10vh;
     color:white;
     transition: color 1s;
+    font-size: 24px;
 }
 
 .secondLine:hover{
     color: red; 
+    font-size: 24px;
 }
 
 .codenotch{
